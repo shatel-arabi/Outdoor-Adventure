@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 17px;
+}
+header{
+    background-image: url(../images/dawn.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5% 0 5%;
+    color: white;
+}
+nav ul{margin: 0;
+padding: 0;
+list-style:none;
+display: flex;}
+nav ul li a{
+color: white;
+text-decoration: none;
+font-size: 18px;
+font-weight: 600;
+padding: 0 0 0 20px;
+text-transform: capitalize;
+
+}
+h1{
+
+}
