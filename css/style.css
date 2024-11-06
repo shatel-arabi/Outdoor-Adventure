@@ -114,6 +114,7 @@ border-radius: 10px;}
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
     display: flex;
     justify-content: space-between;
     align-items: center;
