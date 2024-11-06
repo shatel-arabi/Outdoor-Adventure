@@ -122,9 +122,23 @@ border-radius: 10px;}
     color: white;
     background-color: rgb(88, 88, 177);
     background-blend-mode: multiply;
-    padding: 50px;
+    padding: 60px;
     display: flex;
 }
 .explore-item{width:50%;
 }
-.explore-item a{}
+.explore-item a{margin: 30px 0 30px 0;}
+.exlopre-item p{
+    margin: 30px 0 30px 0;
+}
+.exlopre-item h1{
+   
+    margin: 40px 0 0px 0px;
+    }
+/* footer */
+footer{
+    background-color: rgb(17, 15, 15);
+    color: white;
+    padding: 100px;
+    text-align: center;
+}
