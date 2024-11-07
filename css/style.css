@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 body{
     margin: 0;
     box-sizing: border-box;
@@ -13,7 +16,7 @@ header{
     background-size:cover;
     padding: 0 5% 0 5%;
     color: white;
-    background-color: rgba(0, 0, 0, 0.863);
+    background-color: rgba(54, 41, 41, 0.863);
     background-blend-mode: multiply;}
 
 
@@ -97,14 +100,16 @@ border-radius: 10px;}
     width: 100%;
     border-radius: 15px;
     object-fit: cover;
+    box-shadow:  15px 16px 15px rgba(41, 36, 36, 0.4);
 
 }
 .event-item h4{
     font-size: 20px;
-    margin: 10px 0 0 0;
+    margin: 40px 0 0 0;
 }
 .event-item a{
     color: red;
+    font-size: 25px;
     letter-spacing: 3px;
     text-decoration: none;
 }
@@ -115,30 +120,58 @@ border-radius: 10px;}
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 5% 0 5%;
+    /* display: flex;
+    justify-content: space-between; */
+    padding: 70px;
     color: white;
-    background-color: rgb(88, 88, 177);
+    background-color: rgb(126, 126, 235);
     background-blend-mode: multiply;
-    padding: 60px;
-    display: flex;
+    padding: 10px 10px 20px 900px    ;
 }
-.explore-item{width:50%;
+.explore-item{width:100%;
 }
-.explore-item a{margin: 30px 0 30px 0;}
+.explore-item a{margin: 30px 0 30px 0;
+    color:white; text-decoration: none;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif
+}
 .exlopre-item p{
     margin: 30px 0 30px 0;
 }
 .exlopre-item h1{
    
-    margin: 40px 0 0px 0px;
+    /* margin: 400px 0 30px 500px; */
     }
+    /* Upcoming tour section */
+#tour{ padding: 5%}
+
+    .tour-items{ display: flex;
+    justify-content: space-between;}
+    .tour-item h2{font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;}
+.tour-item{
+    width: 30%;
+    padding: 15px;
+}
+.img-one{height: 300px;
+object-fit: cover;
+margin: 0 0 25px 0}
+.img-two{height: 370px;
+    object-fit: cover;
+    margin: 0 0 25px 0}
 /* footer */
 footer{
-    background-color: rgb(17, 15, 15);
+    background-color: rgb(70, 48, 48);
     color: white;
     padding: 100px;
     text-align: center;
 }
+/* media queries */
+/* mobile device */
+@media only screen and (max-width:670px){}
+
+/* tab landscape */
+@media screen and (min-width:769px) and (max-width:992px) {
+    
+}
+
